@@ -1,0 +1,18 @@
+.world-flags-comment {
+	float: right;
+}
+
+.world-flags-shortcode .wf-img,
+.world-flags-widget .wf-img,
+.world-flags-comment .wf-img,
+.world-flags-template .wf-img {
+	vertical-align: middle;
+	padding: 3px;
+}
+
+.world-flags-shortcode .wf-text,
+.world-flags-widget .wf-text,
+.world-flags-comment .wf-text,
+.world-flags-template .wf-text {
+	color: #999;
+}

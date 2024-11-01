@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: World Flags\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-23 12:31+0330\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Behrooz Sangani <sangani@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../world-flags.php:73
+#: ../includes/widget.php:11
+msgid "World Flags"
+msgstr ""
+
+#: ../world-flags.php:80
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: ../world-flags.php:91
+msgid "IP list successfully downloaded but zero rows inserted into database."
+msgstr ""
+
+#: ../world-flags.php:94
+msgid "Failed to download and save the database. Please try again."
+msgstr ""
+
+#: ../world-flags.php:100
+msgid "World Flags Options"
+msgstr ""
+
+#: ../world-flags.php:101
+msgid "Use this form to change options for the World Flags plugin, or fetch the latest IP database manually."
+msgstr ""
+
+#: ../world-flags.php:109
+msgid "General"
+msgstr ""
+
+#: ../world-flags.php:111
+msgid "Insert Method"
+msgstr ""
+
+#: ../world-flags.php:112
+msgid "Normal (Simply includes HTML. This maynot work if you have caching enabled on your site)"
+msgstr ""
+
+#: ../world-flags.php:113
+msgid "Script (Writes the HTML using a tiny javascript)"
+msgstr ""
+
+#: ../world-flags.php:114
+msgid "jQuery (Neat way to insert the HTML, but jQuery library will also be included. If you have it already, then this is the best choice. <strong>If you have caching, this is the option for you!</strong>)"
+msgstr ""
+
+#: ../world-flags.php:122
+msgid "Options for the World Flag in comments"
+msgstr ""
+
+#: ../world-flags.php:124
+msgid "Visitor Comments"
+msgstr ""
+
+#: ../world-flags.php:125
+msgid "Enable inserting country flag based on comment author IP address"
+msgstr ""
+
+#: ../world-flags.php:127
+#: ../world-flags.php:161
+msgid "Size"
+msgstr ""
+
+#: ../world-flags.php:129
+#: ../world-flags.php:163
+#: ../includes/widget.php:68
+msgid "Icon - 16"
+msgstr ""
+
+#: ../world-flags.php:130
+#: ../world-flags.php:164
+#: ../includes/widget.php:69
+msgid "Small - 24"
+msgstr ""
+
+#: ../world-flags.php:131
+#: ../world-flags.php:165
+#: ../includes/widget.php:70
+msgid "Medium - 32"
+msgstr ""
+
+#: ../world-flags.php:132
+#: ../world-flags.php:166
+#: ../includes/widget.php:71
+msgid "Large - 48"
+msgstr ""
+
+#: ../world-flags.php:135
+#: ../world-flags.php:169
+#: ../includes/widget.php:75
+msgid "Country Name"
+msgstr ""
+
+#: ../world-flags.php:136
+#: ../world-flags.php:170
+msgid "Include the country name beside the flag image"
+msgstr ""
+
+#: ../world-flags.php:138
+msgid "Exclude Admin"
+msgstr ""
+
+#: ../world-flags.php:139
+msgid "Exclude admin <code>user_id= 1</code> comments when showing flags"
+msgstr ""
+
+#: ../world-flags.php:141
+msgid "Comments Insert Method"
+msgstr ""
+
+#: ../world-flags.php:142
+msgid "Before Comment Text (Adds the flag HTML before the visitor comment text)"
+msgstr ""
+
+#: ../world-flags.php:143
+msgid "After Comment Text (Adds the flag HTML after the visitor comment text)"
+msgstr ""
+
+#: ../world-flags.php:144
+msgid "Manual (If you have hooked the comments loop in your template you can select this option and use <code>&lt;?php if (function_exists(\"world_flags_comment_flag\")) world_flags_comment_flag($comment); ?&gt;</code>)"
+msgstr ""
+
+#: ../world-flags.php:146
+#: ../world-flags.php:172
+msgid "Prepend Text"
+msgstr ""
+
+#: ../world-flags.php:147
+#: ../world-flags.php:173
+msgid "Optional text to add before the flag HTML"
+msgstr ""
+
+#: ../world-flags.php:149
+#: ../world-flags.php:175
+msgid "Append Text"
+msgstr ""
+
+#: ../world-flags.php:150
+#: ../world-flags.php:176
+msgid "Optional text to add after the flag HTML"
+msgstr ""
+
+#: ../world-flags.php:158
+msgid "Options for the World Flag function in your template"
+msgstr ""
+
+#: ../world-flags.php:159
+msgid "You can include World Flag in your template by inserting <code>&lt;?php if (function_exists(\"world_flags_insert_flag\")) world_flags_insert_flag(); ?&gt;</code>"
+msgstr ""
+
+#: ../world-flags.php:187
+msgid "IP Database"
+msgstr ""
+
+#: ../world-flags.php:189
+msgid "Scheduled Updates"
+msgstr ""
+
+#: ../world-flags.php:190
+msgid "Enable weekly automatic fetching of the database"
+msgstr ""
+
+#: ../world-flags.php:196
+msgid "Save Changes"
+msgstr ""
+
+#: ../world-flags.php:202
+msgid "Update IP Database"
+msgstr ""
+
+#: ../world-flags.php:204
+msgid "Manually Fetch"
+msgstr ""
+
+#: ../world-flags.php:206
+msgid "Update Database Now!"
+msgstr ""
+
+#: ../world-flags.php:206
+msgid "This may take some time. Please be patient!"
+msgstr ""
+
+#: ../world-flags.php:207
+msgid "Do not use this button often. Once a week or even once a month should work if you have disabled the scheduled download. Please be aware that software77.net may ban your IP if you send many download requrests. Refer to the policy on their website for more information."
+msgstr ""
+
+#: ../world-flags.php:264
+#: ../world-flags.php:269
+#, php-format
+msgid "You must download the IP database for the automatic mode to work properly. Go to <a href=\"%s\">World Flags Options</a> and manually fetch the database."
+msgstr ""
+
+#: ../images/flags/flag.php:28
+msgid "Invalid Country Code"
+msgstr ""
+
+#: ../includes/widget.php:10
+msgid "Show visitor country based on IP"
+msgstr ""
+
+#: ../includes/widget.php:52
+msgid "Title:"
+msgstr ""
+
+#: ../includes/widget.php:55
+msgid "Country Code:"
+msgstr ""
+
+#: ../includes/widget.php:57
+msgid "Automatic, Visitor IP"
+msgstr ""
+
+#: ../includes/widget.php:66
+msgid "Size:"
+msgstr ""
+

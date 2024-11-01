@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: World Flags\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-23 12:31+0330\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Behrooz Sangani <sangani@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Persian\n"
+"X-Poedit-Country: IRAN, ISLAMIC REPUBLIC OF\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../world-flags.php:73
+#: ../includes/widget.php:11
+msgid "World Flags"
+msgstr "پرچم‌های جهان"
+
+#: ../world-flags.php:80
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: ../world-flags.php:91
+msgid "IP list successfully downloaded but zero rows inserted into database."
+msgstr "فهرست IPها با موفقیت دریافت شد ولی هیچ موردی به بانک اطلاعاتی افزوده نشد."
+
+#: ../world-flags.php:94
+msgid "Failed to download and save the database. Please try again."
+msgstr "دریافت و ذخیره بانک اطلاعاتی با خطا مواجه شد. لطفا دوباره تلاش کنید."
+
+#: ../world-flags.php:100
+msgid "World Flags Options"
+msgstr "گزینه‌های پرچم‌های جهان"
+
+#: ../world-flags.php:101
+msgid "Use this form to change options for the World Flags plugin, or fetch the latest IP database manually."
+msgstr "از این صفحه برای تغییر گزینه های افزونه و یا دریافت دستی آخرین بانک اطلاعات IPها استفاده کنید."
+
+#: ../world-flags.php:109
+msgid "General"
+msgstr "عمومی"
+
+#: ../world-flags.php:111
+msgid "Insert Method"
+msgstr "شیوه درج"
+
+#: ../world-flags.php:112
+msgid "Normal (Simply includes HTML. This maynot work if you have caching enabled on your site)"
+msgstr "عادی (درج ساده HTML. اگر از Cache استفاده می‌کنید این گزینه به خوبی عمل نخواهدکرد.)"
+
+#: ../world-flags.php:113
+msgid "Script (Writes the HTML using a tiny javascript)"
+msgstr "اسکریپت (HTML را با کد کوچکی از جاوا می‌نویسد)"
+
+#: ../world-flags.php:114
+msgid "jQuery (Neat way to insert the HTML, but jQuery library will also be included. If you have it already, then this is the best choice. <strong>If you have caching, this is the option for you!</strong>)"
+msgstr "jQuery (روشی زیبا برای درج HTML، ولی jQuery را نیز درصورت نیاز به سایت شما می‌افزاید. <strong>اگر از کش استفاده می‌کنید این گزینه را انتخاب کنید!</strong>)"
+
+#: ../world-flags.php:122
+msgid "Options for the World Flag in comments"
+msgstr "گزینه‌های تابع پرچم‌های جهان در دیدگاه‌ها"
+
+#: ../world-flags.php:124
+msgid "Visitor Comments"
+msgstr "دیدگاه‌های بازدیدکنندگان"
+
+#: ../world-flags.php:125
+msgid "Enable inserting country flag based on comment author IP address"
+msgstr "فعال‌سازی درج پرچم کشور در دیدگاه‌ها براساس IP نویسنده"
+
+#: ../world-flags.php:127
+#: ../world-flags.php:161
+msgid "Size"
+msgstr "اندازه"
+
+#: ../world-flags.php:129
+#: ../world-flags.php:163
+#: ../includes/widget.php:68
+msgid "Icon - 16"
+msgstr "آیکون - 16"
+
+#: ../world-flags.php:130
+#: ../world-flags.php:164
+#: ../includes/widget.php:69
+msgid "Small - 24"
+msgstr "کوچک - 24"
+
+#: ../world-flags.php:131
+#: ../world-flags.php:165
+#: ../includes/widget.php:70
+msgid "Medium - 32"
+msgstr "متوسط - 32"
+
+#: ../world-flags.php:132
+#: ../world-flags.php:166
+#: ../includes/widget.php:71
+msgid "Large - 48"
+msgstr "بزرگ - 48"
+
+#: ../world-flags.php:135
+#: ../world-flags.php:169
+#: ../includes/widget.php:75
+msgid "Country Name"
+msgstr "نام کشور"
+
+#: ../world-flags.php:136
+#: ../world-flags.php:170
+msgid "Include the country name beside the flag image"
+msgstr "نام کشور را هم در کنار عکس پرچم بیاور"
+
+#: ../world-flags.php:138
+msgid "Exclude Admin"
+msgstr "صرف‌نظر از مدیرسایت"
+
+#: ../world-flags.php:139
+msgid "Exclude admin <code>user_id= 1</code> comments when showing flags"
+msgstr "در نظر نگرفتن مدیرسایت <code>user_id= 1</code> هنگام نمایش پرچم‌ها در دیدگاه‌ها"
+
+#: ../world-flags.php:141
+msgid "Comments Insert Method"
+msgstr "شیوه درج در دیدگاه‌ها"
+
+#: ../world-flags.php:142
+msgid "Before Comment Text (Adds the flag HTML before the visitor comment text)"
+msgstr "قبل از متن دیدگاه (HTML را قبل از متن دیدگاه درج می‌کند)"
+
+#: ../world-flags.php:143
+msgid "After Comment Text (Adds the flag HTML after the visitor comment text)"
+msgstr "بعد از متن دیدگاه (HTML را بعد از متن دیدگاه درج می‌کند)"
+
+#: ../world-flags.php:144
+msgid "Manual (If you have hooked the comments loop in your template you can select this option and use <code>&lt;?php if (function_exists(\"world_flags_comment_flag\")) world_flags_comment_flag($comment); ?&gt;</code>)"
+msgstr "دستی (اگر حلقه دیدگاه‌ها در پوسته شما تعریف شده است می‌توانید این گزینه را انتخاب کنید و از این تابع استفاده کنید <code>&lt;?php if (function_exists(\"world_flags_comment_flag\")) echo world_flags_comment_flag($comment); ?&gt;</code>)"
+
+#: ../world-flags.php:146
+#: ../world-flags.php:172
+msgid "Prepend Text"
+msgstr "متن پیش از درج"
+
+#: ../world-flags.php:147
+#: ../world-flags.php:173
+msgid "Optional text to add before the flag HTML"
+msgstr "متن دلخواه که پیش از درج HTML پرچم می آید"
+
+#: ../world-flags.php:149
+#: ../world-flags.php:175
+msgid "Append Text"
+msgstr "متن پس از درج"
+
+#: ../world-flags.php:150
+#: ../world-flags.php:176
+msgid "Optional text to add after the flag HTML"
+msgstr "متن دلخواه که پس از درج HTML پرچم می آید"
+
+#: ../world-flags.php:158
+msgid "Options for the World Flag function in your template"
+msgstr "گزینه‌های تابع پرچم‌های جهان در پوسته شما"
+
+#: ../world-flags.php:159
+msgid "You can include World Flag in your template by inserting <code>&lt;?php if (function_exists(\"world_flags_insert_flag\")) world_flags_insert_flag(); ?&gt;</code>"
+msgstr "شما می‌توانید پرچم‌های جهان را در هر کجای پوسته خود با این تابع داشته باشید <code>&lt;?php if (function_exists(\"world_flags_insert_flag\")) world_flags_insert_flag(); ?&gt;</code>"
+
+#: ../world-flags.php:187
+msgid "IP Database"
+msgstr "بانک اطلاعات IP"
+
+#: ../world-flags.php:189
+msgid "Scheduled Updates"
+msgstr "برنامه‌ریزی به‌روزرسانی"
+
+#: ../world-flags.php:190
+msgid "Enable weekly automatic fetching of the database"
+msgstr "فعال‌سازی دریافت خودکار هفتگی بانک اطلاعاتی"
+
+#: ../world-flags.php:196
+msgid "Save Changes"
+msgstr ""
+
+#: ../world-flags.php:202
+msgid "Update IP Database"
+msgstr "به‌روزرسانی بانک اطلاعات IP"
+
+#: ../world-flags.php:204
+msgid "Manually Fetch"
+msgstr "دریافت دستی"
+
+#: ../world-flags.php:206
+msgid "Update Database Now!"
+msgstr "بانک اطلاعاتی را به‌روزرسانی کن!"
+
+#: ../world-flags.php:206
+msgid "This may take some time. Please be patient!"
+msgstr "این عمل مدتی زمان می‌برد. لطفا صبور باشید!"
+
+#: ../world-flags.php:207
+msgid "Do not use this button often. Once a week or even once a month should work if you have disabled the scheduled download. Please be aware that software77.net may ban your IP if you send many download requrests. Refer to the policy on their website for more information."
+msgstr "از این کلید در فواصل کوتاه استفاده نکنید. یک بار در هفته یا حتی یک بار در ماه کافی است اگر گزینه دریافت خودکار را غیرفعال کرده‌اید. لطفا دقت کنید که سایت software77.net ممکن است دسترسی IP شما را درصورتی که درخواست‌های زیاد بفرستید غیرفعال کند. به قوانین این وب‌سایت برای اطلاعات بیشتر رجوع کنید."
+
+#: ../world-flags.php:264
+#: ../world-flags.php:269
+#, php-format
+msgid "You must download the IP database for the automatic mode to work properly. Go to <a href=\"%s\">World Flags Options</a> and manually fetch the database."
+msgstr "شما باید بانک اطلاعات IP را دریافت کنید تا حالت خودکار به درستی کار کند. به <a href=\"%s\">گزینه‌های پرچم‌های جهان</a> بروید و بانک را به صورت دستی دریافت کنید."
+
+#: ../images/flags/flag.php:28
+msgid "Invalid Country Code"
+msgstr "کد کشور معتبر نیست"
+
+#: ../includes/widget.php:10
+msgid "Show visitor country based on IP"
+msgstr "نمایش کشور بازدیدکننده براساس IP"
+
+#: ../includes/widget.php:52
+msgid "Title:"
+msgstr "عنوان:"
+
+#: ../includes/widget.php:55
+msgid "Country Code:"
+msgstr "کد کشور:"
+
+#: ../includes/widget.php:57
+msgid "Automatic, Visitor IP"
+msgstr "خودکار، IP بازدیدکننده"
+
+#: ../includes/widget.php:66
+msgid "Size:"
+msgstr "اندازه:"
+
